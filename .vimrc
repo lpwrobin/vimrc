@@ -109,5 +109,4 @@ let Tlist_Process_File_Always  = 1
 let Tlist_Use_Right_Window = 1
 
 map <c-r><c-f> :!ctags -R && cscope -bqR <cr>
-map <c-r><c-g> :set tags=./tags,/home/linux/workspace/source-code/tags <cr>
 
