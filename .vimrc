@@ -98,6 +98,7 @@ if !exists(":DiffOrig")
 endif
 
 set number
+set mouse=v
 map <c-w><c-b> :BottomExplorerWindow<cr>
 map <c-w><c-f> :FirstExplorerWindow<cr>
 map <c-w><c-t> :WMToggle<cr>
