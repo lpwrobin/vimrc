@@ -108,6 +108,3 @@ nnoremap <silent> <F8> :TlistToggle<CR>
 let Tlist_Show_One_File = 1
 let Tlist_Process_File_Always  = 1
 let Tlist_Use_Right_Window = 1
-
-map <c-r><c-f> :!ctags -R && cscope -bqR <cr>
-
