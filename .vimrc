@@ -111,3 +111,4 @@ let Tlist_Use_Right_Window = 1
 
 set cursorline
 set relativenumber
+set foldmethod=syntax
