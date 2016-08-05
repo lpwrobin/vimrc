@@ -112,3 +112,7 @@ let Tlist_Use_Right_Window = 1
 set cursorline
 set relativenumber
 set foldmethod=syntax
+set foldlevelstart=20
+
+map <c-a><c-r> :set tags+=/home/linux/workspace/sandbox/repo/tags <CR>
+map <c-a><c-t> :cscope add /home/linux/workspace/sandbox/repo/cscope.out <CR>
