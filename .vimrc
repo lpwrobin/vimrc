@@ -114,5 +114,9 @@ set relativenumber
 set foldmethod=syntax
 set foldlevelstart=20
 
+set fileencodings=utf-8,gb2312,gbk,gb18030
+set termencoding=utf-8
+set encoding=prc
+
 map <c-a><c-r> :set tags+=/home/linux/workspace/sandbox/repo/tags <CR>
 map <c-a><c-t> :cscope add /home/linux/workspace/sandbox/repo/cscope.out <CR>
